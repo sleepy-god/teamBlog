@@ -30,6 +30,17 @@ export function getCates() {
   })
 }
 
+export function getTags() {
+  return request({
+    method: 'post',
+    url: '/article/getTags',
+    data: {
+      username: sessionStorage.userName
+    }
+  })
+}
+
+
 export function addArticle(type, content, title, brief, date, cate, tags, imgUrl) {
   return request({
     method: 'post',

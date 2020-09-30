@@ -65,15 +65,15 @@
       randType() {
         let length = this.tags.length - 1;
         let num = Math.floor(Math.random() * length + 0);
-        console.log(num);
         return num
       }
     },
     mounted(){
-      this.getTags()
+      this.getTag();
     },
     methods: {
-      getTags() {
+      getTag() {
+        debugger;
         getTags().then(res => {
           this.tags = res.data.tags
         })
