@@ -1,5 +1,7 @@
 # blogCommunity
 
+首先分享一下我的个人博客http://www.sleeepygod.xyz
+
 ##  设计思路
 
 * blogCommunity的设计初衷是给予团队一个 经验分享与项目记录的平台
@@ -65,27 +67,30 @@
 npm run serve
 ```
 
-运行mongodb数据库
+
+
+配置mongodb(windows)
+
+1、在官网下载安装包
+
+2、按照步骤安装
+
+3、将安装路径配置在系统环境变量的path中
+
+4、启动命令
 
 ```
-cmd
-	mongod
-cmd
-	mongo
+mongod
+mongo
 ```
+
+启动后也可以使用可视化工具navicat等进行可视化管理
+
+
 
 运行后端服务器
 
 ```
+npm insatall
 nodemon .\server.js
 ```
-
-
-
-
-
-"# Team-blog" 
-"# Team-blog" 
-"# Team-blog" 
-"# teamBlog" 
-"# teamBlog" 
