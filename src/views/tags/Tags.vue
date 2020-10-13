@@ -73,7 +73,6 @@
     },
     methods: {
       getTag() {
-        debugger;
         getTags().then(res => {
           this.tags = res.data.tags
         })
