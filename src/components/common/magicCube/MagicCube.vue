@@ -2,44 +2,44 @@
   <div class="wrap">   <!--最大的空间div-->
     <div class="cube">   <!--正方体的box-->
       <!--这个是大的正方体的六面-->
-      <div class="out-front"><img src="@/assets/img/about/11.jpg">
+      <div class="out-front"><img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
       </div>
-      <div class="out-back"><img src="@/assets/img/about/12.jpg">
+      <div class="out-back"><img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
       </div>
-      <div class="out-left"><img src="@/assets/img/about/11.jpg">
+      <div class="out-left"><img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
       </div>
-      <div class="out-right"><img src="@/assets/img/about/12.jpg">
+      <div class="out-right"><img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
       </div>
-      <div class="out-top"><img src="@/assets/img/about/11.jpg">
+      <div class="out-top"><img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
       </div>
-      <div class="out-bottom"><img src="@/assets/img/about/12.jpg">
+      <div class="out-bottom"><img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
       </div>
 
       <!--这个是小的正方体的六面-->
       <span class="in-front">             <!--前面的点数1-->
-                <img src="@/assets/img/about/12.jpg">
+                <img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
         <!-- <span class="points"></span> -->
             </span>
       <span class="in-back">              <!--后面的点数3-->
-                <img src="@/assets/img/about/11.jpg">
+                <img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
         <!-- <span class="points"></span>
         <span class="points pitB2"></span>
         <span class="points pitB3"></span> -->
             </span>
       <span class="in-left">              <!--左面的点数2-->
-                <img src="@/assets/img/about/12.jpg">
+                <img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
         <!-- <span class="points"></span>
         <span class="points pitL2"></span> -->
             </span>
       <span class="in-right">             <!--右面的点数4-->
-                <img src="@/assets/img/about/11.jpg">
+                <img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
         <!-- <span class="points"></span>
         <span class="points"></span>
         <span class="points"></span>
         <span class="points"></span> -->
             </span>
       <span class="in-top">               <!--上面的点数5-->
-                <img src="@/assets/img/about/12.jpg">
+                <img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
         <!-- <span class="pitT1">
             <span class="points"></span>
             <span class="points "></span>
@@ -53,7 +53,7 @@
         </span> -->
             </span>
       <span class="in-bottom">            <!--下面的点数6-->
-                <img src="@/assets/img/about/11.jpg">
+                <img src="https://images.twgreatdaily.com/images/image/dOE/dOEO03IBfGB4SiUwHImT.jpg">
         <!-- <span class="points"></span>
         <span class="points"></span>
         <span class="points"></span>
