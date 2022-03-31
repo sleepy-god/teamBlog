@@ -5,15 +5,17 @@
       <span class="title-item">最近文章</span>
     </div>
     <div class="content-list">
-      <div class="content-item" v-for="(article, index) in articles" v-if="index < 5" :key="index">
-        <div class="content-img">
-          <img :src="article.imgUrl" alt="">
-        </div>
-        <div class="content-info">
-          <a href="#" @click="articleClick(index)" class="content-title">
-            <span>{{article.title}}</span>
-          </a>
-          <span>{{article.date}}</span>
+      <div class="content-item" v-for="(article, index) in articles" :key="index">
+        <div v-if="index < 5">
+          <div class="content-img">
+            <img :src="article.imgUrl" alt="">
+          </div>
+          <div class="content-info">
+            <a href="#" @click="articleClick(index)" class="content-title">
+              <span>{{article.title}}</span>
+            </a>
+            <span>{{article.date}}</span>
+          </div>
         </div>
       </div>
     </div>

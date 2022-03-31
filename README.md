@@ -1,16 +1,16 @@
 # blogCommunity
 
-首先分享一下我的个人博客http://www.sleeepygod.xyz
+首先分享一下我的个人博客<http://www.sleeepygod.xyz>
 
-##  设计思路
+## 设计思路
 
-* blogCommunity的设计初衷是给予团队一个 经验分享与项目记录的平台
+* blogCommunity的设计初衷是给予团队一个经验分享与项目记录的平台
 * blogCommunity允许个人或团队进行注册
 * 个人登录时可以看到以团队名义发表的文章与自己发表的文章，而团队账户登录时，只能看到以团队名义发表的文章
 
-##  技术应用
+## 技术应用
 
-###  前端技术应用：
+### 前端技术应用
 
 * Html5 + Css3
 * Vue-cli
@@ -23,7 +23,7 @@
 * ECharts
 * mavon-editor
 
-###  后端技术应用：
+### 后端技术应用
 
 * NodeJS
 * express-web框架
@@ -31,7 +31,7 @@
 * mongoos框架
 * mongodb（noSql）
 
-##  基本功能
+## 基本功能
 
 * 注册时可以分别选择个人/团队注册
 * 登录时使用账号进行登录
@@ -47,7 +47,7 @@
 * 在所有页面都应用了Element-ui的BackToTop的返回顶部按钮，当出现下滑操作时，自动显示
 * 整体网站应用Element-ui进行了响应式优化
 
-##  逻辑详情
+## 逻辑详情
 
 1. 整体设计使用组件化思想，引入MVVM的框架思想，整个网站属于SPA（Signal Page Application）单页面应用
 2. 使用vue-router中的导航守卫对所有路由进行限制，当跳转路由不是/login或/register时则判断当前是否有已登录账户，然后进行分别跳转
@@ -59,15 +59,14 @@
 8. 前后端的数据请求，全部使用axios库进行处理，在所有请求的header中添加`'Content-Type': 'application/json'`
 9. 在部分组件中使用<font color="red">debounce</font>(防抖函数)、<font color="red">throttle</font>(节流函数)，对性能进行了优化
 
-##  运行方法
+## 运行方法
 
 运行前端服务器
 
 ``` js
+npm install
 npm run serve
 ```
-
-
 
 配置mongodb(windows)
 
@@ -79,18 +78,16 @@ npm run serve
 
 4、启动命令
 
-```
+``` js
 mongod
 mongo
 ```
 
 启动后也可以使用可视化工具navicat等进行可视化管理
 
+运行后端服务器:
 
-
-运行后端服务器
-
-```
+``` cmd
 npm insatall
-nodemon .\server.js
+npm run start
 ```
