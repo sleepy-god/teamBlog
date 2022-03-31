@@ -9,11 +9,11 @@
   "dependencies": {
     "better-scroll": "^1.15.2",
     "core-js": "^3.6.5",
-    "echarts": "^4.8.0",
+    "echarts": "^5.3.1",
     "element-ui": "^2.13.2",
     "highlight.js": "^10.0.3",
     "js-md5": "^0.7.3",
-    "marked": "^1.1.0",
+    "marked": "^4.0.12",
     "mavon-editor": "^2.9.0",
     "moment": "^2.26.0",
     "vue": "^2.6.11",
@@ -24,8 +24,8 @@
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-router": "^4.4.0",
     "@vue/cli-plugin-vuex": "^4.4.0",
-    "@vue/cli-service": "^4.4.0",
-    "axios": "^0.19.2",
+    "@vue/cli-service": "4.4.0",
+    "axios": "^0.26.1",
     "vue-template-compiler": "^2.6.11"
   }
 }

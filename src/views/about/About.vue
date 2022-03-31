@@ -6,7 +6,7 @@
       </el-col>
       <el-col :span="10">
         <shadow-model class="text-model">
-          <header>开发团队</header>
+          <header>星雪工作室</header>
           <div>这是一个向上欢乐的团队</div>
           <div>我们互相帮助，互相学习,共同承诺、共同承担。</div>
           <div>我们不只专注个人目标，更关注多名成员共同工作而带来的增值效应。</div>
@@ -18,11 +18,6 @@
           <header class="member-header">团队成员</header>
           <ul>
             <li>任艺增</li>
-            <li>赵田鑫</li>
-            <li>李东方</li>
-            <li>姜超</li>
-            <li>赵席军</li>
-            <li>张越</li>
           </ul>
         </shadow-model>
       </el-col>

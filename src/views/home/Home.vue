@@ -8,17 +8,15 @@
         <main id="content-outer">
           <home-articles :page-size="pageSize" :current-page="currentPage"/>
           <el-pagination
-
-                  @size-change="handleSizeChange"
-                  @current-change="handleCurrentChange"
-                  :current-page="currentPage"
-                  layout="prev, pager, next"
-                  :page-size="pageSize"
-                  :hide-on-single-page="true"
-                  :total="articles.length">
+            @size-change="handleSizeChange"
+            @current-change="handleCurrentChange"
+            :current-page="currentPage"
+            layout="prev, pager, next"
+            :page-size="pageSize"
+            :hide-on-single-page="true"
+            :total="articles.length">
           </el-pagination>
         </main>
-
       </el-col>
       <el-col :xl="{span: 5, push: 0}" :lg="{span: 7, push: 0}" :sm="{span: 8, push: 4}" :xs="{span: 24, offset: 0}">
         <div id="aside">

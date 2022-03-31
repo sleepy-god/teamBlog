@@ -1,74 +1,39 @@
 <template>
   <div id="add-article">
     <shadow-model class="art-model">
-      <el-form>
-        <el-form-item>
-          <el-row>
-            <el-col :span="5">
-              <label>标题：</label>
-            </el-col>
-            <el-col :span="19">
-              <el-input v-model="title"></el-input>
-            </el-col>
-          </el-row>
+      <el-form inline>
+        <el-form-item label="标题：">
+            <el-input v-model="title"></el-input>
         </el-form-item>
-        <el-form-item>
-          <el-row>
-            <el-col :span="5">
-              <label>日期：</label>
-            </el-col>
-            <el-col :span="19">
-              <el-input type="date" v-model="date"></el-input>
-            </el-col>
-          </el-row>
+        <el-form-item label="日期：">
+            <el-input type="date" v-model="date"></el-input>
         </el-form-item>
-        <el-form-item>
-          <el-row>
-            <el-col :span="5">
-              <label>分类：</label>
-            </el-col>
-            <el-col :span="19">
-              <el-input v-model="cate"></el-input>
-            </el-col>
-          </el-row>
+        <el-form-item label="分类：">
+            <el-input v-model="cate"></el-input>
         </el-form-item>
-        <el-form-item>
-          <el-row>
-            <el-col :span="10">
-              <label>文章图片链接：</label>
-            </el-col>
-            <el-col :span="14">
-              <el-input v-model="imgUrl"></el-input>
-            </el-col>
-          </el-row>
+        <el-form-item label="文章图片链接：">
+            <el-input v-model="imgUrl"></el-input>
         </el-form-item>
-        <el-form-item>
-          <el-row>
-            <el-col :span="5">
-              <label>标签：</label>
-            </el-col>
-            <el-col :span="14">
-              <el-input v-model="tag"></el-input>
-            </el-col>
-            <el-col :span="4" :push="1" >
-              <el-button @click="inputTag" type="primary" plain>添加</el-button>
-            </el-col>
-          </el-row>
+        <el-form-item label="标签：">
+          <div>
+            <el-input class="form-input" v-model="tag"></el-input>
+            <el-button class="add-btn" @click="inputTag" type="primary" plain>添加</el-button>
+          </div>
         </el-form-item>
         <el-form-item v-for="(item, index) in tags" :key="index">
           {{item}}
         </el-form-item>
       </el-form>
       <mavon-editor
-              class="md"
-              v-model="content"
-              :subfield="prop.subfield"
-              :defaultOpen="prop.defaultOpen"
-              :toolbarsFlag="prop.toolbarsFlag"
-              :editable="prop.editable"
-              :scrollStyle="prop.scrollStyle"
-              @save="save"
-              :boxShadow="true">
+        class="md"
+        v-model="content"
+        :subfield="prop.subfield"
+        :defaultOpen="prop.defaultOpen"
+        :toolbarsFlag="prop.toolbarsFlag"
+        :editable="prop.editable"
+        :scrollStyle="prop.scrollStyle"
+        @save="save"
+        :boxShadow="true">
       </mavon-editor>
 
     </shadow-model>
@@ -146,14 +111,22 @@
     /*border: 1px solid #000;*/
     padding-left: 5%;
     margin: 20px 0;
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     align-items: center;
     flex-wrap: wrap;
   }
 
   .el-form-item {
     margin: 15px;
+  }
+
+  .form-input {
+    display: inline-block;
+  }
+
+  .add-btn {
+    display: inline-block;
   }
 
 
