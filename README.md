@@ -51,13 +51,12 @@
 
 1. 整体设计使用组件化思想，引入MVVM的框架思想，整个网站属于SPA（Signal Page Application）单页面应用
 2. 使用vue-router中的导航守卫对所有路由进行限制，当跳转路由不是/login或/register时则判断当前是否有已登录账户，然后进行分别跳转
-3. 出于安全考虑，在后台使用token验证机制，防止出现csrf（跨站请求伪造）攻击
-4. 将所有文章信息存储在vuex中，进行集中的状态管理
-5. 在前后端数据交互过程中，考虑到存在跨域请求，在response中设置了header为`Access-Control-Allow-Origin`
-6. 在主页文章显示时使用分页机制，加快渲染速度，提高用户使用舒适度
-7. 首页使用moment.js对时间进行处理，制作了实时显示时间的组件
-8. 前后端的数据请求，全部使用axios库进行处理，在所有请求的header中添加`'Content-Type': 'application/json'`
-9. 在部分组件中使用<font color="red">debounce</font>(防抖函数)、<font color="red">throttle</font>(节流函数)，对性能进行了优化
+3. 将所有文章信息存储在vuex中，进行集中的状态管理
+4. 在前后端数据交互过程中，考虑到存在跨域请求，在response中设置了header为`Access-Control-Allow-Origin`
+5. 在主页文章显示时使用分页机制，加快渲染速度，提高用户使用舒适度
+6. 首页使用moment.js对时间进行处理
+7. 前后端的数据请求，全部使用axios库进行处理，在所有请求的header中添加`'Content-Type': 'application/json'`
+8. 在部分组件中使用<font color="red">debounce</font>(防抖函数)、<font color="red">throttle</font>(节流函数)，对性能进行了优化
 
 ## 运行方法
 
