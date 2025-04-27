@@ -1,6 +1,6 @@
 # blogCommunity
 
-首先分享一下我的个人博客<http://www.sleeepygod.xyz>
+首先分享一下我的个人博客<http://www.sleepygod.xyz>
 
 ## 设计思路
 
